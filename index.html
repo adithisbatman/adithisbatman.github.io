@@ -26,7 +26,11 @@
     .tag { font-size:12px; color:#52525b; background:#f4f4f5; padding:6px 11px; border-radius:999px; }
     section { padding:72px 0; }
     h2 { font-size:25px; letter-spacing:-.035em; margin:0 0 24px; }
-    .projects { display:grid; gap:16px; }
+    .project-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
     .card { padding:27px 30px; border:1px solid var(--line); border-radius:15px; transition:border-color .2s,transform .2s; }
     .card:hover { border-color:#a1a1aa; transform:translateY(-2px); }
     .cardtop { display:flex; justify-content:space-between; gap:14px; align-items:center; }
@@ -58,11 +62,18 @@
     <section id="work">
       <h2>Selected work</h2>
       <div class="projects">
+        
+      <a href="projects/leo-broadband.html" class="project-link">
         <article class="card">
-          <div class="cardtop"><h3>01 / LEO Broadband Market Prioritization</h3><span class="status">Case study coming soon</span></div>
+          <div class="cardtop">
+            <h3>01 / LEO Broadband Market Prioritization</h3>
+            <span class="status">View case study ↗</span>
+          </div>
           <p>A quantitative framework for prioritizing geographic markets using demand, infrastructure, and capacity data.</p>
           <div class="meta">Excel · Scoring models · Market analytics</div>
         </article>
+      </a>
+
         <article class="card">
           <div class="cardtop"><h3>02 / Spotify Top 50</h3><span class="status">In progress</span></div>
           <p>Exploring patterns in music popularity through data analysis.</p>
