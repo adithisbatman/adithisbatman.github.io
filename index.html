@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Adithi Balasubramanian — data science, analytics, and strategy portfolio." />
+  <title>Adithi Balasubramanian | Data & Analytics</title>
+  <style>
+    :root { color-scheme: light; --ink:#18181b; --muted:#71717a; --line:#e4e4e7; --surface:#fafafa; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; color:var(--ink); background:white; line-height:1.6; }
+    .wrap { max-width:960px; margin:0 auto; padding:0 28px; }
+    header { border-bottom:1px solid var(--line); }
+    nav { display:flex; align-items:center; justify-content:space-between; min-height:78px; gap:20px; }
+    .brand { font-weight:650; letter-spacing:-.02em; text-decoration:none; color:var(--ink); }
+    .links { display:flex; gap:24px; flex-wrap:wrap; }
+    a { color:inherit; }
+    .links a { text-decoration:none; font-size:14px; color:var(--muted); }
+    .links a:hover, .card a:hover { color:#111; }
+    .hero { padding:110px 0 92px; border-bottom:1px solid var(--line); }
+    .eyebrow { font-size:12px; font-weight:650; letter-spacing:.14em; text-transform:uppercase; color:var(--muted); }
+    h1 { max-width:750px; margin:20px 0; font-size:clamp(42px,7vw,76px); letter-spacing:-.065em; line-height:1.08; font-weight:650; }
+    .intro { max-width:610px; font-size:19px; color:#52525b; }
+    .tags { display:flex; gap:9px; flex-wrap:wrap; margin-top:28px; }
+    .tag { font-size:12px; color:#52525b; background:#f4f4f5; padding:6px 11px; border-radius:999px; }
+    section { padding:72px 0; }
+    h2 { font-size:25px; letter-spacing:-.035em; margin:0 0 24px; }
+    .projects { display:grid; gap:16px; }
+    .card { padding:27px 30px; border:1px solid var(--line); border-radius:15px; transition:border-color .2s,transform .2s; }
+    .card:hover { border-color:#a1a1aa; transform:translateY(-2px); }
+    .cardtop { display:flex; justify-content:space-between; gap:14px; align-items:center; }
+    h3 { margin:0; font-size:19px; letter-spacing:-.025em; }
+    .card p { color:#52525b; margin:12px 0; }
+    .meta { font-size:13px; color:var(--muted); }
+    .status { font-size:11px; border:1px solid var(--line); border-radius:99px; padding:4px 10px; white-space:nowrap; color:#52525b; }
+    .about { border-top:1px solid var(--line); }
+    .about p { max-width:700px; color:#52525b; }
+    footer { padding:32px 0; border-top:1px solid var(--line); color:var(--muted); font-size:13px; }
+    footer .wrap { display:flex; justify-content:space-between; gap:15px; flex-wrap:wrap; }
+    @media(max-width:600px) { nav { align-items:flex-start; flex-direction:column; padding:20px 0; } .hero { padding:70px 0; } section { padding:52px 0; } .card { padding:22px; } .cardtop { align-items:flex-start; } }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="wrap">
+      <a class="brand" href="#top">Adithi Balasubramanian</a>
+      <div class="links"><a href="#work">Work</a><a href="#about">About</a><a href="https://github.com/adithisbatman" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div>
+    </nav>
+  </header>
+  <main id="top" class="wrap">
+    <div class="hero">
+      <div class="eyebrow">Data science · Analytics · Strategy</div>
+      <h1>Finding the signal in the noise.</h1>
+      <p class="intro">I use data, statistical reasoning, and curiosity to explore questions in technology, markets, and human behavior.</p>
+      <div class="tags"><span class="tag">Python</span><span class="tag">SQL</span><span class="tag">Statistics</span><span class="tag">Excel</span></div>
+    </div>
+    <section id="work">
+      <h2>Selected work</h2>
+      <div class="projects">
+        <article class="card">
+          <div class="cardtop"><h3>01 / Starlink Market Opportunity</h3><span class="status">Case study coming soon</span></div>
+          <p>A quantitative framework for prioritizing geographic markets using demand, infrastructure, and capacity data.</p>
+          <div class="meta">Excel · Scoring models · Market analytics</div>
+        </article>
+        <article class="card">
+          <div class="cardtop"><h3>02 / Spotify Top 50</h3><span class="status">In progress</span></div>
+          <p>Exploring patterns in music popularity through data analysis.</p>
+          <div class="meta">Python · Exploratory analysis · <a href="https://github.com/adithisbatman/Spotify-Top-50" target="_blank" rel="noopener noreferrer">View repository ↗</a></div>
+        </article>
+        <article class="card">
+          <div class="cardtop"><h3>03 / BFit Behavioral Analytics</h3><span class="status">Planned</span></div>
+          <p>Investigating behavioral factors associated with consistency and engagement.</p>
+          <div class="meta">Product analytics · Behavioral research</div>
+        </article>
+      </div>
+    </section>
+    <section id="about" class="about">
+      <h2>About</h2>
+      <p>I'm interested in using quantitative methods to make complex problems easier to understand—and actionable. My work spans market research, product thinking, and data analysis.</p>
+      <p><a href="https://github.com/adithisbatman" target="_blank" rel="noopener noreferrer">Explore my GitHub ↗</a></p>
+    </section>
+  </main>
+  <footer><div class="wrap"><span>© 2026 Adithi Balasubramanian</span><span>Built with HTML & CSS · Hosted on GitHub Pages</span></div></footer>
+</body>
+</html>
